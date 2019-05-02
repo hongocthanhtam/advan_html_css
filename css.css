@@ -176,3 +176,25 @@ i:hover{
 .done_button i{
     color: #85bf6b;
 }
+input{
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    .content{
+        padding: 0 95px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    header{
+        width: 475px;
+        justify-content: space-around;
+        padding: 0 10px;
+    }
+    .top_icon {
+        padding: 0px 25px;
+    }
+    .content{
+        width: 365px;
+        padding: 0px 60px;
+    } 
+}
